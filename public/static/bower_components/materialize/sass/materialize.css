@@ -1,0 +1,85 @@
+/*
+Syntax error: Invalid CSS after "  "lighten-5"": expected ")", was ":  #fdeaeb,"
+        on line 11 of components/_color.scss
+        from line 6 of materialize.scss
+
+6: 
+7: // Google Color Palette defined: http://www.google.com/design/spec/style/color.html
+8: 
+9: 
+10: $materialize-red: (
+11:   "lighten-5":  #fdeaeb,
+12:   "lighten-4":  #f8c1c3,
+13:   "lighten-3":  #f3989b,
+14:   "lighten-2":  #ee6e73,
+15:   "lighten-1":  #ea454b,
+16:   "base":       #e51c23,
+
+Backtrace:
+components/_color.scss:11
+materialize.scss:6
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/lexer.rb:206:in `expected!'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:483:in `assert_tok'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:433:in `paren'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:418:in `special_fun'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:413:in `raw'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:337:in `funcall'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:319:in `ident'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_not'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_div'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_minus'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:228:in `unary_plus'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `times_div_or_mod'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `plus_or_minus'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `relational'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `eq_or_neq'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `and_expr'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:209:in `or_expr'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:298:in `space'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:283:in `interpolation'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:246:in `expr'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:477:in `assert_expr'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/script/parser.rb:49:in `parse'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1022:in `sass_script'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:514:in `variable'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:543:in `block_contents'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:274:in `to_tree'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `each'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin.rb:81:in `update_stylesheets'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:443:in `watch_or_update'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:326:in `process_result'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:41:in `parse'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:21:in `parse!'
+/var/lib/gems/2.1.0/gems/sass-3.2.19/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:23:in `load'
+/usr/local/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"  \"lighten-5\"\": expected \")\", was \":  #fdeaeb,\"\A         on line 11 of components/_color.scss\A         from line 6 of materialize.scss\A \A 6: \A 7: // Google Color Palette defined: http://www.google.com/design/spec/style/color.html\A 8: \A 9: \A 10: $materialize-red: (\A 11:   \"lighten-5\":  #fdeaeb,\A 12:   \"lighten-4\":  #f8c1c3,\A 13:   \"lighten-3\":  #f3989b,\A 14:   \"lighten-2\":  #ee6e73,\A 15:   \"lighten-1\":  #ea454b,\A 16:   \"base\":       #e51c23,"; }
